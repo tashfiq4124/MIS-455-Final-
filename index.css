@@ -33,4 +33,41 @@ html, body {
     border: none;
     cursor: pointer;
   }
+  #results {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  
+  .country-card {
+    border: 1px solid #ccc;
+    padding: 1.5rem;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #a6bce4;
+    text-align: center;
+  }
+  
+  .country-card h2 {
+    margin-top: 0;
+    font-size: 1.8rem;
+  }
+  
+  .country-card img {
+    width: 120px;
+    max-height: 80px;
+    object-fit: contain;
+    margin: 1rem 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .country-card p {
+    margin: 0.4rem 0;
+    font-size: 1rem;
+  }
+  
+  
   
